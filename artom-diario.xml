@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="tei_custom_artom/document.xsd">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Diari di Emanuele Artom</title>
+                <respStmt xml:id="author_lc">
+                    <resp>editor</resp>
+                    <name>Leonoardo Celati</name>
+                    <orgName>Università di Pisa</orgName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title/>
+                    <author/>
+                    <date/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Supporto per rendering</p>
+            <tagsDecl>
+                <rendition xml:id="rendition_strikethrough">text-decoration:
+                    line-through;</rendition>
+                <rendition xml:id="rendition_boxed">text-decoration: line-through;</rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2023-09-05">5 Settembre 2023</date>Prima versione </item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="artom-172-page">
+            <graphic url="artom-172-highRes.jpg"/>
+            <zone xml:id="h_left_zone" lry="987" lrx="651" uly="64" ulx="65"/>
+            <zone xml:id="h_right_zone" lry="984" lrx="722" uly="29" ulx="660"/>
+        </surface>
+        <surface xml:id="artom-173-page">
+            <graphic url="artom-173-highRes.jpg"/>
+            <!--<graphic url="assets/graphic/artom-173-lowRes.jpg"/>-->
+        </surface>
+        <surface xml:id="artom-174-page">
+            <graphic url="artom-174-highRes.jpg"/>
+            <!--<graphic url="assets/graphic/artom-174-lowRes.jpg"/>-->
+        </surface>
+    </facsimile>
+    <text xml:lang="IT">
+        <body>
+            <listPerson>
+                <person xml:id="person_ruggerolevi">
+                    <persName>Ruggero Levi</persName>
+                </person>
+                <person xml:id="person_giorgiosegre">
+                    <persName>Giorgio Segre</persName>
+                </person>
+                <person xml:id="person_ugosacerdote">
+                    <persName>Ugo Sacerdote</persName>
+                </person>
+                <person xml:id="person_siglevi">
+                    <persName>Signor Levi</persName>
+                </person>
+                <person xml:id="person_sigralevi">
+                    <persName>Signora Levi</persName>
+                </person>
+                <person xml:id="person_francomomigliano">
+                    <persName>Franco Momigliano</persName>
+                </person>
+                <person xml:id="person_francomontagnana">
+                    <persName>Franco Montagnana</persName>
+                </person>
+                <person xml:id="person_marioabruzzese">
+                    <persName>Mario Abruzzese</persName>
+                </person>
+                <person xml:id="person_emmanizza">
+                    <persName>Emma Nizza</persName>
+                </person>
+                <person xml:id="person_vincenzomodica">
+                    <persName>Vincenzo Modica</persName>
+                </person>
+                <person xml:id="person_pompeocolajanni">
+                    <persName>Pompeo Colajanni</persName>
+                </person>
+                <person xml:id="person_oliverodimeo">
+                    <persName>Olivero di Meo</persName>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="place_bagnau">
+                    <placeName>Bagnau</placeName>
+                    <desc>Gruppo di casolari dell'alta valle di Angrogna</desc>
+                    <location>
+                        <country>Italia</country>
+                        <region type="state">Piemonte</region>
+                        <geo cert="low">51.154,8.357</geo>
+                    </location>
+                </place>
+                <place xml:id="place_torino">
+                    <placeName>Torino</placeName>
+                    <location>
+                        <country>Italia</country>
+                        <region type="state">Piemonte</region>
+                        <geo cert="high">51.154,8.357</geo>
+                    </location>
+                </place>
+            </listPlace>
+            <div xml:id="diario">
+            <!-- Pag 172 Inizio  -->    
+            <div facs="#artom-172-page">
+                <pb facs="#artom-172-page"/>
+                <head>pagina 172</head> 
+                <ab> della base.La mattina scorsa fu mattina di riposo. Lessi la filosofia del
+                    Leopardi di Tillgher. Quando avrò finito ne riparlerò. Intanto si era saputo che
+                    due anonimi della squadra di <persName ref="#person_vincenzomodica">Petralia</persName> avevano commesso furti a mano armata con altri 4
+                    malfattori e i carabinieri chiedevano che fossero allontanati dalla banda per
+                    arrestarli. Siccome intendevo già andare a trovare <persName ref="#person_vincenzomodica">Petralia</persName> per la questione dei
+                    manufatti di <persName ref="#person_walter">Walter</persName>, mi presi un
+                    ragazzo come guida e venni alle sue basi. <persName ref="#person_vincenzomodica"
+                        >Petralia</persName> e <persName ref="#person_pietro">Pietro</persName>
+                    sonno stati promossi di grado e lavorano altrove. Ufficiale è ora <choice>
+                            <sic>Toscanino</sic>
+                        <corr resp="#author_lc" cert="high"><persName
+                            ref="#person_marioabruzzese">Romanino</persName></corr>
+                        </choice>, <choice>
+                            <abbr>comm</abbr>
+                            <expan>commissario</expan>
+                        </choice> <persName ref="#person_mariom">Mario M</persName>. Sui moschetti non sanno nulla. Quanto ai
+                    malfattori, temono che se li consegnamo ai carabinieri, faranno rivelazioni sul
+                    campo e sulle basi. Preferirebbero sopprimerli e <add place="above">per</add>
+                    intanto si consiglieranno con <persName ref="#person_vincenzomodica"
+                        >Petralia</persName> e <persName ref="#person_pompeocolajanni"
+                        >Barbato</persName>. Ho fatto con loro molti discorsi filocomunisti per
+                    cancellare la fama di anticomunista che mi sono fatto senza ragione. Ne avevo
+                    lungamente parlato nei fogli distrutti presto ne parlerò di nuovo. Poi ho
+                    dormito in un letto discreto. Dal giorno di Cavour ho dormito 2 notti
+                    consecutive nello stesso letto. Ho <choice>
+                        <sic>raccontatto</sic>
+                        <corr resp="#auth_lc">raccontato</corr>
+                    </choice> la storia del gen <persName ref="#person_genjalla">Jallà</persName>,
+                    del <choice>
+                        <sic>suocapitanoe</sic>
+                        <corr resp="#auth_lc">suo capitano e</corr>
+                    </choice> del sergente. [Naturalmente hanno disapprovato che li <choice>
+                        <sic>sia</sic>
+                        <corr resp="#auth_lc">si sia</corr>
+                    </choice> lasciati andare. bisognava ucciderli. Io avevo sostenuto di essere
+                    generosi. Ho notato che alle condanne a morte sono sempre proclivi quelli che
+                    non devono emanarle, ma chiaccherano solo.] </ab>
+            </div>
+            <!-- Pag 172 fine  -->
+            <!-- Pag 173 Inizio -->
+            <div facs="#artom-173-page">
+                <dateline><date when="1944-02-23">23.2.44.</date></dateline>
+                <head>pagina 173</head>
+                <pb facs="#artom-173-page"/>
+                <ab> Parecchi altri giorni trascorsi senza scrivere il diario: <del
+                        rend="strikethrough" rendition="#rendition_strikethrough">Prima uno di</del>
+                    Tre giorni fa, domenica, mentre i ragazzi erano andati a ballare, passai la sera
+                    accanto al camino con <persName ref="#person_giorgiosegre">G</persName>. È
+                    strano come ci assorbe questa vita partigiana anche nel pensiero. Il discorso
+                    cadeva sempre sulla nostra guerra e si dovette sforzarci per spaziare in
+                    orizzonti più lontani, con confidenza piena, come ho soltanto con <persName
+                        ref="#person_giorgiosegre">G</persName>. <hi rendition="#rendition_boxed">La
+                        notte prima avevamo avuto un freddo pauroso. Rannicchiato, non osavo
+                        muovermi per non toccare altre zone delle gelide lenzuola. <del><gap
+                                reason="cancelled"/></del> Nella camera l’acqua era ghiacciata.
+                        Perciò ci facemmo aggiungere delle coperte, mettere la bottiglia dell’acqua
+                        calda, e si bevve del marsala.</hi> Si parlò della civiltà moderna. L’unico
+                    elemento spirituale che si è veramente davvero sviluppato originalmente in
+                    questi ultimi anni è il cinematografo. Siamo figli della nostra generazione,
+                    riusciremo a rinnovarci senza invecchiare ? <persName ref="#person_giorgiosegre"
+                        >G.</persName> dice di no, ma <persName ref="#person_giorgiosegre"
+                        >G</persName> è molto pessimista. Di me ha detto che gli pare che abbia
+                    molta disposizione per la politica. Il giorno dopo una gran camminata con
+                        <persName ref="#person_ruggerolevi">Geo</persName> fino quasi al <placeName
+                        ref="place_bagnau">Bagnaut</placeName>. <persName ref="#person_ruggerolevi"
+                        >Geo</persName> è molto simpatico. Infantile moralmente, ma molto maturo
+                            <del><gap reason="cancelled"/></del> intellettualmente. Affronta in
+                    pieno tutti i problemi: Sensibilissimo verso la famiglia e specialmente verso
+                    suo padre, non è certo un buon figlio e si rode di rimorsi. Sente l’abisso che
+                    separa padri e figli e non sa ancora che è incolmabile. L’abisso aperto dalla
+                    parzialità dei giudizi dei genitori, e dal pudore <del rend="strikethrough">che
+                        hanno i</del>
+                    <add place="above">impedisce ai</add> figli di palesare le proprie
+                    trasformazioni, abisso che si spalanca ora più che mai grande, ora che da una
+                    generazione e l’altra sembrano corsi dei secoli. Colti dalla notte a un’ora dal
+                        <placeName ref="place_bagnau">Bagnaut</placeName>, <del><gap
+                            reason="cancelled"/></del> ci rifugiamo in una stalla dicendo :
+                    Accoglieteci, siamo partigiani, ma <del><gap reason="cancelled"/></del> ci fanno
+                    entrare con somma diffidenza perché ci temono fascisti, dato che i partigiani
+                    sono sempre armati. Poi, riconoscendoci, ci offrono la cena e si fa amicizia.
+                    Faccio un bel discorsetto di cultura politica, con successo. <del><gap
+                            reason="cancelled"/></del> 4 o 5 ascoltatori sono operai e quindi mi
+                    esprimo in senso proletario e di estrema sinistra. Lavorano in certe fabbriche
+                    dove nessuno, nemmeno i <choice>
+                        <abbr>com</abbr>
+                        <expan>comunisti</expan>
+                    </choice>, per ora si occupa di politica. <del><gap reason="cancelled"/></del>
+                    Una notte cattiva; <persName ref="#person_ruggerolevi">Geo</persName> ed io ci
+                    svegliamo con il mal di gola, temiamo di incontrare a Luserna i fascisti, <del
+                        rend="strikethrough">ci p</del> passiamo <gap reason="cancelled"/> ore nere,
+                    come avviene quando di notte preoccupazioni <del><gap reason="cancelled"/></del>
+                    morali e dolori fisici aumentano nel buio. La mattina dopo riprendiamo a
+                    camminare con l’influenza addosso. Dopo due mesi di bel tempo quasi consecutivo
+                    camminiamo per tutto il giorno sotto la neve. Alle <time when="04:30:00"
+                        type="descriptive">4 e mezza</time> si giunge ai Rümé. bagnati, tossenti
+                    stanchissimi ed ora mi sto godendo, per la prima volta dopo un mese e mezzo, un
+                    giorno di riposo. Si è pranzato molto bene. La <persName ref="#person_sigralevi"
+                        >signora Levi</persName>
+                    <choice>
+                        <reg>è</reg>
+                        <orig>e</orig>
+                    </choice> simpatica, Il <persName ref="#person_siglevi">signor Levi</persName>
+                    un uomo disfatto, stanco, brontolone, moralmente vecchio, ma non spiacevole.
+                    Pare che della vita abbia poche soddisfazioni. Se non mi inganno, son contenuti
+                    che <persName ref="#person_ruggerolevi">Geo</persName> sta con me e lo indirizzi. La signora <persName ref="#person_emmanizza"
+                        >Emma</persName> gelosa che <persName ref="#person_ruggerolevi"
+                        >Geo</persName> faccia una vita migliore di <persName
+                        ref="#person_ugosacerdote">Ugo</persName> non nasconde la sua gelosia, ma
+                        <persName ref="#person_ugosacerdote">Ugo</persName> è noioso e <persName
+                        ref="#person_ruggerolevi">Geo</persName> divertente <del
+                        rend="strikethrough">. Per Pan</del> e gangster, per passare mesi assieme
+                    non c’è da dubitare della scelta. D’altra parte a <persName
+                        ref="#person_ugosacerdote">Ugo</persName> sto <choice>
+                        <sic>procurando</sic>
+                        <corr resp="#auth_lc">procuranda</corr>
+                    </choice> una bella </ab>
+            </div>
+            <!-- Pag 173 fine  -->
+                
+            <!-- Pag 174 Inizio  -->
+            <div facs="#artom-174-page">
+                <head>pagina 174</head>
+                <pb facs="#artom-174-page"/>
+                <ab> posizione. Sento di disturbare un po’ in questa strettissima casa, ma procuro 2
+                    chili di grano dalle bande. Cercherò di procurare anche zucchero e farina.
+                    Dimenticavo di dire È bello vedere in questa vita partigiana come si fa rapi -
+                    damente amicizia. Dimenticavo di dire che ieri in albergo fui fermato da un mio
+                    compagno di scuola elementare, <persName ref="#person_oliverodimeo"
+                        >Olivero</persName>, che mi riconobbe. Avendolo guardato poco soddisfatto,
+                    mi assicurò che sapeva delle mie condizioni ecc. Allora mi fidai, perché aveva
+                    la faccia da galantuomo. Avendomi detto che lavorava in riproduzioni di stampati
+                    e avendomi dato il suo indi- rizzo, gli chiesi se ci avrebbe fatto stampati
+                    falsi. Mi rispose di si. Ho incaricato <choice>
+                            <sic>Olearo</sic>
+                        <corr resp="#author_lc" cert="high"><persName ref="#person_oliverodimeo">Olivero</persName></corr>
+                        </choice>, che domani andrà a <placeName ref="place_torino"
+                        >Torino</placeName>, di re- capitare la lettera a <persName
+                        ref="#person_francomomigliano">Mumo</persName>. <persName
+                        ref="#person_ruggerolevi">Geo</persName> dice che teme che la le aprirà la
+                    busta e la leggerà. Smetto di scrivere perché diventa buio. </ab>
+            </div>
+            <!-- Pag 174 fine  -->
+            </div>
+        </body>
+    </text>
+</TEI>

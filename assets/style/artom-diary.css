@@ -1,0 +1,74 @@
+/* 
+ * Foglio di stile diari Artom
+ * Leonardo Celati - 17738117 - Unipi 
+ */ 
+ 
+ .page {
+     display: none;
+ }
+ 
+ /* Person */
+ span.person_anchor {
+     color: navy;
+     font-weight: bold;
+     text-decoration: underline;
+ }
+ 
+  /* Place */
+ span.place_anchor {
+     color: navy;
+     font-weight: bold;
+     text-decoration: underline;
+ }
+ 
+ 
+ span.abbr-content {
+     font-style: italic;
+ }
+ 
+  span.corr {
+     font-style: italic;
+ }
+ 
+ #visor {
+    margin: auto;
+    max-width: 900px;
+    border: 3px solid green;
+    padding: 10px;
+ }
+ 
+ #visor .info {
+     position: relative;    
+ }
+ 
+ #visor .info .container {
+     background-color: #FFFFFF;
+     position: absolute;
+     top: 100px;
+     border: 1px solid #000000;
+     max-width: 500px;
+     z-index: 99;
+ }
+ 
+ #visor .info .content {
+     display: inline;
+ }
+ 
+ #visor .info .close-btn {
+     display: inline;
+ }
+ 
+  #visor #image .presentation {
+     text-align: center;
+ }
+ 
+  #visor #upper-control, #visor #lower-control {
+     text-align: center;
+ }
+ 
+ #visor #upper-control .direction, #visor #lower-control .direction {
+     max-width: 300px;
+     display: inline;
+ }
+ 
+ 

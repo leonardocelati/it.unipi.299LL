@@ -1,0 +1,224 @@
+<!DOCTYPE HTML><html xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Diari di Emanuele Artom</title>
+      <!--css a caricamento immediato-->
+      <style>
+                    #diary .page, #graphic .facsimile, #visor .info {
+                        display: none
+                    }
+                </style>
+      <link rel="stylesheet" href="assets/style/artom-diary.css">
+      
+      <!--Variabili comuni--><script>
+                    diaryData = {
+                        pages: [
+                            
+                                'artom-172-page',
+                                'artom-173-page',
+                                'artom-174-page'
+                        ],
+                        text: [
+                            
+                                'artom-172-page-text',
+                                'artom-173-page-text',
+                                'artom-174-page-text'
+                        ],
+                        people: {
+                            
+        '#person_ruggerolevi': 'Ruggero Levi'
+    ,
+        '#person_giorgiosegre': 'Giorgio Segre'
+    ,
+        '#person_ugosacerdote': 'Ugo Sacerdote'
+    ,
+        '#person_siglevi': 'Signor Levi'
+    ,
+        '#person_sigralevi': 'Signora Levi'
+    ,
+        '#person_francomomigliano': 'Franco Momigliano'
+    ,
+        '#person_francomontagnana': 'Franco Montagnana'
+    ,
+        '#person_marioabruzzese': 'Mario Abruzzese'
+    ,
+        '#person_emmanizza': 'Emma Nizza'
+    ,
+        '#person_vincenzomodica': 'Vincenzo Modica'
+    ,
+        '#person_pompeocolajanni': 'Pompeo Colajanni'
+    ,
+        '#person_oliverodimeo': 'Olivero di Meo'
+    
+                        },
+                        places: {
+                            
+        'place_bagnau': ['Bagnau','Gruppo di casolari dell\'alta valle di Angrogna','Italia','Piemonte','51.154,8.357']
+    ,
+        'place_torino': ['Torino','','Italia','Piemonte','51.154,8.357']
+                                
+                        }
+
+                    }
+                </script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script><script type="text/javascript" src="assets/script/artom-script.js"></script></head>
+   <body onload="init()">
+      
+      <!--Inizio layer grafica-->
+      <div id="visor">
+         <div id="upper-control">
+            <div class="direction" onclick="javascript:moveToPage('left');">left</div>
+            <div class="direction" onclick="javascript:moveToPage('right');">right</div>
+         </div>
+         <div id="image"></div>
+         <div id="lower-control">
+            <div class="direction" onclick="javascript:moveToPage('left');">left</div>
+            <div class="direction" onclick="javascript:moveToPage('right');">right</div>
+         </div>
+         <div class="info">
+            <div class="container&gt;">
+               <div onclick="toggleInfoPopup()" class="close-btn">chiudi</div>
+               <div class="content"></div>
+            </div>
+         </div>
+         <div id="text"></div>
+      </div>
+      
+      <!--Inizio layer grafica-->
+      <div id="graphic">
+         <div id="artom-172-page" class="facsimile">
+            <div class="presentation"><img src="assets/graphic/artom-172-highRes.jpg"></div>
+         </div>
+         <div id="artom-173-page" class="facsimile">
+            <div class="presentation"><img src="assets/graphic/artom-173-highRes.jpg"></div>
+         </div>
+         <div id="artom-174-page" class="facsimile">
+            <div class="presentation"><img src="assets/graphic/artom-174-highRes.jpg"></div>
+         </div>
+      </div>
+      <!--Fine layer grafica-->
+      
+      <!--Inizio layer diario-->
+      <div id="diary">
+         <div id="artom-172-page-text" class="page">
+            <div> della base.La mattina scorsa fu mattina di riposo. Lessi la filosofia del
+               Leopardi di Tillgher. Quando avrò finito ne riparlerò. Intanto si era saputo che
+               due anonimi della squadra di <span class="person_anchor" onclick="person('#person_vincenzomodica','Petralia')">Petralia</span> avevano commesso furti a mano armata con altri 4
+               malfattori e i carabinieri chiedevano che fossero allontanati dalla banda per
+               arrestarli. Siccome intendevo già andare a trovare <span class="person_anchor" onclick="person('#person_vincenzomodica','Petralia')">Petralia</span> per la questione dei
+               manufatti di <span class="person_anchor" onclick="person('#person_walter','Walter')">Walter</span>, mi presi un
+               ragazzo come guida e venni alle sue basi. <span class="person_anchor" onclick="person('#person_vincenzomodica','Petralia')">Petralia</span> e <span class="person_anchor" onclick="person('#person_pietro','Pietro')">Pietro</span>
+               sonno stati promossi di grado e lavorano altrove. Ufficiale è ora 
+               <span class="sic">Toscanino</span>
+               
+               (<span class="corr" resp="#author_lc" cert="high"><span class="person_anchor" onclick="person('#person_marioabruzzese','Romanino')">Romanino</span></span>)
+               
+               , 
+               <span class="abbr">comm</span>
+               <span class="abbr-content">(abbreviazione di <span class="term">commissario'</span>)</span>
+                <span class="person_anchor" onclick="person('#person_mariom','Mario M')">Mario M</span>. Sui moschetti non sanno nulla. Quanto ai
+               malfattori, temono che se li consegnamo ai carabinieri, faranno rivelazioni sul
+               campo e sulle basi. Preferirebbero sopprimerli e <span class="add">per</span>
+               intanto si consiglieranno con <span class="person_anchor" onclick="person('#person_vincenzomodica','Petralia')">Petralia</span> e <span class="person_anchor" onclick="person('#person_pompeocolajanni','Barbato')">Barbato</span>. Ho fatto con loro molti discorsi filocomunisti per
+               cancellare la fama di anticomunista che mi sono fatto senza ragione. Ne avevo
+               lungamente parlato nei fogli distrutti presto ne parlerò di nuovo. Poi ho
+               dormito in un letto discreto. Dal giorno di Cavour ho dormito 2 notti
+               consecutive nello stesso letto. Ho 
+               <span class="sic">raccontatto</span>
+               
+               (<span class="corr" resp="#auth_lc">raccontato</span>)
+               
+                la storia del gen <span class="person_anchor" onclick="person('#person_genjalla','Jallà')">Jallà</span>,
+               del 
+               <span class="sic">suocapitanoe</span>
+               
+               (<span class="corr" resp="#auth_lc">suo capitano e</span>)
+               
+                del sergente. [Naturalmente hanno disapprovato che li 
+               <span class="sic">sia</span>
+               
+               (<span class="corr" resp="#auth_lc">si sia</span>)
+               
+                lasciati andare. bisognava ucciderli. Io avevo sostenuto di essere
+               generosi. Ho notato che alle condanne a morte sono sempre proclivi quelli che
+               non devono emanarle, ma chiaccherano solo.] </div>
+         </div>
+         <div id="artom-173-page-text" class="page">
+            <div> Parecchi altri giorni trascorsi senza scrivere il diario: 
+               Tre giorni fa, domenica, mentre i ragazzi erano andati a ballare, passai la sera
+               accanto al camino con <span class="person_anchor" onclick="person('#person_giorgiosegre','G')">G</span>. È
+               strano come ci assorbe questa vita partigiana anche nel pensiero. Il discorso
+               cadeva sempre sulla nostra guerra e si dovette sforzarci per spaziare in
+               orizzonti più lontani, con confidenza piena, come ho soltanto con <span class="person_anchor" onclick="person('#person_giorgiosegre','G')">G</span>. 
+               <hi xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rendition="#rendition_boxed">La
+                  notte prima avevamo avuto un freddo pauroso. Rannicchiato, non osavo
+                  muovermi per non toccare altre zone delle gelide lenzuola.  Nella camera l’acqua era ghiacciata.
+                  Perciò ci facemmo aggiungere delle coperte, mettere la bottiglia dell’acqua
+                  calda, e si bevve del marsala.</hi> Si parlò della civiltà moderna. L’unico
+               elemento spirituale che si è veramente davvero sviluppato originalmente in
+               questi ultimi anni è il cinematografo. Siamo figli della nostra generazione,
+               riusciremo a rinnovarci senza invecchiare ? <span class="person_anchor" onclick="person('#person_giorgiosegre','G.')">G.</span> dice di no, ma <span class="person_anchor" onclick="person('#person_giorgiosegre','G')">G</span> è molto pessimista. Di me ha detto che gli pare che abbia
+               molta disposizione per la politica. Il giorno dopo una gran camminata con
+               <span class="person_anchor" onclick="person('#person_ruggerolevi','Geo')">Geo</span> fino quasi al <span class="place_anchor" onclick="place('place_bagnau')">Bagnaut</span>. <span class="person_anchor" onclick="person('#person_ruggerolevi','Geo')">Geo</span> è molto simpatico. Infantile moralmente, ma molto maturo
+                intellettualmente. Affronta in
+               pieno tutti i problemi: Sensibilissimo verso la famiglia e specialmente verso
+               suo padre, non è certo un buon figlio e si rode di rimorsi. Sente l’abisso che
+               separa padri e figli e non sa ancora che è incolmabile. L’abisso aperto dalla
+               parzialità dei giudizi dei genitori, e dal pudore 
+               <span class="add">impedisce ai</span> figli di palesare le proprie
+               trasformazioni, abisso che si spalanca ora più che mai grande, ora che da una
+               generazione e l’altra sembrano corsi dei secoli. Colti dalla notte a un’ora dal
+               <span class="place_anchor" onclick="place('place_bagnau')">Bagnaut</span>,  ci rifugiamo in una stalla dicendo :
+               Accoglieteci, siamo partigiani, ma  ci fanno
+               entrare con somma diffidenza perché ci temono fascisti, dato che i partigiani
+               sono sempre armati. Poi, riconoscendoci, ci offrono la cena e si fa amicizia.
+               Faccio un bel discorsetto di cultura politica, con successo.  4 o 5 ascoltatori sono operai e quindi mi
+               esprimo in senso proletario e di estrema sinistra. Lavorano in certe fabbriche
+               dove nessuno, nemmeno i 
+               <span class="abbr">com</span>
+               <span class="abbr-content">(abbreviazione di <span class="term">comunisti'</span>)</span>
+               , per ora si occupa di politica. 
+               Una notte cattiva; <span class="person_anchor" onclick="person('#person_ruggerolevi','Geo')">Geo</span> ed io ci
+               svegliamo con il mal di gola, temiamo di incontrare a Luserna i fascisti,  passiamo <span class="cancelled"></span> ore nere,
+               come avviene quando di notte preoccupazioni 
+               morali e dolori fisici aumentano nel buio. La mattina dopo riprendiamo a
+               camminare con l’influenza addosso. Dopo due mesi di bel tempo quasi consecutivo
+               camminiamo per tutto il giorno sotto la neve. Alle <time xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" when="04:30:00" type="descriptive">4 e mezza</time> si giunge ai Rümé. bagnati, tossenti
+               stanchissimi ed ora mi sto godendo, per la prima volta dopo un mese e mezzo, un
+               giorno di riposo. Si è pranzato molto bene. La <span class="person_anchor" onclick="person('#person_sigralevi','signora Levi')">signora Levi</span>
+               
+               
+               <reg xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">è</reg>
+               
+               <orig xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">e</orig>
+                simpatica, Il <span class="person_anchor" onclick="person('#person_siglevi','signor Levi')">signor Levi</span>
+               un uomo disfatto, stanco, brontolone, moralmente vecchio, ma non spiacevole.
+               Pare che della vita abbia poche soddisfazioni. Se non mi inganno, son contenuti
+               che <span class="person_anchor" onclick="person('#person_ruggerolevi','Geo')">Geo</span> sta con me e lo indirizzi. La signora <span class="person_anchor" onclick="person('#person_emmanizza','Emma')">Emma</span> gelosa che <span class="person_anchor" onclick="person('#person_ruggerolevi','Geo')">Geo</span> faccia una vita migliore di <span class="person_anchor" onclick="person('#person_ugosacerdote','Ugo')">Ugo</span> non nasconde la sua gelosia, ma
+               <span class="person_anchor" onclick="person('#person_ugosacerdote','Ugo')">Ugo</span> è noioso e <span class="person_anchor" onclick="person('#person_ruggerolevi','Geo')">Geo</span> divertente  e gangster, per passare mesi assieme
+               non c’è da dubitare della scelta. D’altra parte a <span class="person_anchor" onclick="person('#person_ugosacerdote','Ugo')">Ugo</span> sto 
+               <span class="sic">procurando</span>
+               
+               (<span class="corr" resp="#auth_lc">procuranda</span>)
+               
+                una bella </div>
+         </div>
+         <div id="artom-174-page-text" class="page">
+            <div> posizione. Sento di disturbare un po’ in questa strettissima casa, ma procuro 2
+               chili di grano dalle bande. Cercherò di procurare anche zucchero e farina.
+               Dimenticavo di dire È bello vedere in questa vita partigiana come si fa rapi -
+               damente amicizia. Dimenticavo di dire che ieri in albergo fui fermato da un mio
+               compagno di scuola elementare, <span class="person_anchor" onclick="person('#person_oliverodimeo','Olivero')">Olivero</span>, che mi riconobbe. Avendolo guardato poco soddisfatto,
+               mi assicurò che sapeva delle mie condizioni ecc. Allora mi fidai, perché aveva
+               la faccia da galantuomo. Avendomi detto che lavorava in riproduzioni di stampati
+               e avendomi dato il suo indi- rizzo, gli chiesi se ci avrebbe fatto stampati
+               falsi. Mi rispose di si. Ho incaricato 
+               <span class="sic">Olearo</span>
+               
+               (<span class="corr" resp="#author_lc" cert="high"><span class="person_anchor" onclick="person('#person_oliverodimeo','Olivero')">Olivero</span></span>)
+               
+               , che domani andrà a <span class="place_anchor" onclick="place('place_torino')">Torino</span>, di re- capitare la lettera a <span class="person_anchor" onclick="person('#person_francomomigliano','Mumo')">Mumo</span>. <span class="person_anchor" onclick="person('#person_ruggerolevi','Geo')">Geo</span> dice che teme che la le aprirà la
+               busta e la leggerà. Smetto di scrivere perché diventa buio. </div>
+         </div>
+      </div>
+      <!--Fine layer diario--></body>
+</html>
