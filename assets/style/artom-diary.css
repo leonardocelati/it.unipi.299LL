@@ -38,13 +38,9 @@
  }
  
  #visor .info {
-     position: relative;    
- }
- 
- #visor .info .container {
-     background-color: #FFFFFF;
      position: absolute;
-     top: 100px;
+     background-color: #FFFFFF;
+     margin: 10px;
      border: 1px solid #000000;
      max-width: 500px;
      z-index: 99;
